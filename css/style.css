@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e2e;
+    color: #cdd9e5;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    
+}
+.wrapper{
+    max-width: 1250px;
+    margin: 10px auto;
+}
+.terminal {
+    padding: 20px;    
+    border: 2px solid #f1fa8c;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+}
+.container{
+    overflow: auto;
+    height: 89vh;
+}
+
+.terminal-header {
+    font-size: 1.2em;
+    color: #7dc1ff;
+}
+
+.ascii-art {
+    white-space: pre;
+    font-size: 17px;
+    color: #f1fa8c;
+    line-height: 1.2;
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.info span{
+    margin-left: 40px;
+}
+
+.commands {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #50fa7b;
+}
+
+.prompt {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #8be9fd;
+}
+
+.highlight {
+    color: #ff79c6;
+}
+
+.command-list {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.container::-webkit-scrollbar {
+    width: 8px;  
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background-color: #f1fa8c;  
+    border-radius: 6px;         
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background-color: #000; 
+    border-radius: 6px;         
+  }
+
+  .promt-input{
+    background: none;
+    outline: none;
+    border: none;
+    color: #ff79c6;
+   font-family: inherit; 
+   width: 600px;
+  }
